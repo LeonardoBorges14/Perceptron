@@ -33,10 +33,15 @@ public class Perceptron {
 			System.out.println();
 			System.out.print("------------------ PERCEPTRON ------------------");
 			System.out.println();
+			System.out.println();
+			System.out.println("Œò = 1");
+			System.out.println();
+			System.out.println("Œ± = 1");
+			System.out.println();
 
 			do {
 				System.out.println();
-				System.out.print("Informe a OperaÁ„o: ");
+				System.out.print("Informe a Opera√ß√£o: ");
 				operation = sc.nextLine();
 				System.out.println();
 
@@ -53,7 +58,7 @@ public class Perceptron {
 					operacaoValida = true;
 				}
 				else {
-					System.out.print("OperaÁ„o Inv·lida! Tente Novamente.");
+					System.out.print("Opera√ß√£o Inv√°lida! Tente Novamente.");
 				}
 			} while(!operacaoValida);
 
@@ -150,7 +155,7 @@ public class Perceptron {
 				if (geracao == 50 && operation.equalsIgnoreCase("XOR")) {
 					variaPeso = false;
 					System.out.println("");
-					System.out.println("Utilizando a operaÁ„o XOR o looping se tornou infinito!");
+					System.out.println("Utilizando a opera√ß√£o XOR o looping se tornou infinito!");
 				}
 
 				if (achouResultado) {
@@ -178,7 +183,7 @@ public class Perceptron {
 			}
 
 			System.out.println();
-			System.out.println("…pocas Geradas: " + geracao);
+			System.out.println("√âpocas Geradas: " + geracao);
 			System.out.println();
 			System.out.println("------------------------------------------------");
 
@@ -193,7 +198,7 @@ public class Perceptron {
 				}
 				else {
 					System.out.println();
-					System.out.println("Erro! Informe uma opÁ„o v·lida (S / N).");
+					System.out.println("Erro! Informe uma op√ß√£o v√°lida (S / N).");
 					System.out.println();
 				}
 
